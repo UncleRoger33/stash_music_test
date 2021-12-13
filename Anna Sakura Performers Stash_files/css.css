@@ -1,0 +1,19 @@
+/* Remove Donate button */
+
+.btn-primary.btn.donate.minimal {
+  display: none;
+}
+
+/* Fit more thumbnails on each row */
+.grid { padding: 0px !important; }
+
+/* Hide the scene scrubber */
+.scrubber-wrapper {
+  display: none;
+}
+
+/* Max out the scene player's height */
+#jwplayer-container > div:first-child {
+  height: 100%;
+}
+
